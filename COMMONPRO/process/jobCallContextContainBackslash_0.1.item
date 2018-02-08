@@ -3,7 +3,7 @@
     <contextParameter comment="" name="name" prompt="name?" promptNeeded="false" repositoryContextId="_Qi0y0L-JEeO-CMIHh6L-qg" type="id_String" value="jack/zhang"/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;]}"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
@@ -122,15 +122,15 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>hdeuP3Tk0SpXp5ajY/xL7z2qkZY=</ds:DigestValue>
+<ds:DigestValue>/nYu6iehRSkjmBnFwYsS/a0gFfc=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-AXxFQmmOITJALxhAr296etaBR1crNfnp681+1/cftvONvs+ciGdWIVQJ6ZegAv+8WfbcsKXbondl&#13;
-vmnlbez/LKpOuDyljdH4r6EdvxnvICdgcyHBB8ex8xyxfWJc5ShBQNbudWF0I1nc6xFr7QfFV9xA&#13;
-9F4J4E2P7G73iZdggipBw8awEsc8bBkPvezfuSxophWbm6UBz7u6ZEn4DCtPEnItTS8DuA6HPg1a&#13;
-qu5Feq33v32EsFhIAcZNiyL+54/IYpnmoUJr8De2NN35eRy6ZbGr3splntrEcL2kekVT82GumeZ6&#13;
-sbVvadRUOcuMyWzbmrIavymtsayZ5/ear5X9Tg==
+FnN2EXGYKywCmMpaN7+BsSBMnjzJqISZmUvlp2IydVm5voBetE9pbo9suRZDJjMvMpMdlxrdlwMJ&#13;
+1hnkmptrUf7JBSFaYazf6guPx/OvqdQTE9biK+aBhJlfekOBV0OrHUAas6ZUKXN/h/ZlACXzqKVw&#13;
+mpfYtluBX6ieW0p6rg8Y7znxcHF+Liz86DE230HkU0CKSOD8MGx/LKbLF78wJ80qqF6S4UC32vEE&#13;
+7YhUnezDhXLrogoaNwy3mH+NcNzYtPVeTVyvuhcxuFVPhThr2DD09SQQeSzzo1cbby2g0ECW0E9U&#13;
+glhGkBNN21Xl3rs+7z5qrtEg+gNDsih/kr1xPA==
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:X509Data>

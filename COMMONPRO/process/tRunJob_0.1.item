@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;]}"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
@@ -133,15 +133,15 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>f3GtGz2wx4C+HRgRC0vY6XCrdrY=</ds:DigestValue>
+<ds:DigestValue>AXTT0jjJd7p/gFOB4DseSt7FyFY=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-OyvqlvmpGCO0ZcGP5+CSRPcQ+Nxxb2E5jvPqUofjGD7NGEa6AfhmbfXy78Vs2Ehhr+sjNMlhdS1F&#13;
-mx54lxLNIE2sZTP824Zq1sSDJFy5koK/zUct6l4fLMx9xjDqNa3x41CszftpgHOf6jZP+KeduyxU&#13;
-G2qIVXw5F/EHQJUJ3wST3X9AjwTsgKuq0un6Gf2oyBJrt8hMLpLRmMb1RdOe30c+Cot5757rWlfs&#13;
-oYXPiSk7prfIDnpq/vvsEwMhIczOEH8lpamb4MTXA86ZJfvtK4xNrxjaQxShhLFdWq3mnR1FzEVD&#13;
-knWQ6uZUOanXigKN0OT/In6xpdirojytuFG94Q==
+lmV6ygxpG+Yeeq7BJr8rsNeJDhVyst+FKIux3LHk36MaO8eDnDo9b3yEndqOxyOA3qHLlPhtF+s9&#13;
+OctcMChMpWmJ/0yWG+ZOFj/p7NyaG4YQbCc8E/ImT+jA2HP8hmvVqNmi2dwX+xKYVg2aO9rvLyDH&#13;
+XJ5XDWVi8T8m2p/3LZtxf/WM63CvoHDa0TUR+6VkIiZpMi5Ex7Rl31JVSc6EbRM9BeMFHZdkAq0Y&#13;
+/eURzx5TaUAPo08DQdCC53ucnkzRX7FzDl8oPvWFT9tFfBE+hsFCLbNSR2SDTpk1L6rOVahYUc42&#13;
+m1vazi1iZ06oX7gOa8OnO0AdfAQM2Kt50Pq6oA==
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:X509Data>
